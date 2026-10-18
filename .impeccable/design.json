@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T00:00:00Z",
+  "title": "Design System: Cupcakes & Cucumbers",
+  "extensions": {
+    "colorMeta": {
+      "rose": {
+        "role": "primary",
+        "displayName": "Party Rose",
+        "canonical": "oklch(55.9% 0.174 5.2)",
+        "tonalRamp": [
+          "#340004",
+          "#580019",
+          "#7C0034",
+          "#A12751",
+          "#C74C70",
+          "#EE6E91",
+          "#FF94B6",
+          "#FFCEE4"
+        ]
+      },
+      "rose-deep": {
+        "role": "primary",
+        "displayName": "Deep Rose",
+        "canonical": "oklch(47.6% 0.154 5.5)",
+        "tonalRamp": [
+          "#320003",
+          "#560019",
+          "#7A0034",
+          "#9F2B51",
+          "#C54F70",
+          "#EB7191",
+          "#FF97B6",
+          "#FFD2E5"
+        ]
+      },
+      "pink": {
+        "role": "primary",
+        "displayName": "Wordmark Pink",
+        "canonical": "oklch(63.8% 0.162 3.0)",
+        "tonalRamp": [
+          "#330005",
+          "#57001C",
+          "#7C0037",
+          "#A12755",
+          "#C64C74",
+          "#ED6E95",
+          "#FF94BA",
+          "#FFD1E7"
+        ]
+      },
+      "foam-pink": {
+        "role": "primary",
+        "displayName": "Foam Pink",
+        "canonical": "oklch(70.9% 0.142 2.1)",
+        "tonalRamp": [
+          "#2F0007",
+          "#52001F",
+          "#76093A",
+          "#9A3257",
+          "#BF5376",
+          "#E57597",
+          "#FF9BBD",
+          "#FFD4E9"
+        ]
+      },
+      "cuke": {
+        "role": "secondary",
+        "displayName": "Cucumber",
+        "canonical": "oklch(58.2% 0.115 136.2)",
+        "tonalRamp": [
+          "#001300",
+          "#002E00",
+          "#1F4C00",
+          "#3D6C23",
+          "#5C8D44",
+          "#7DAF65",
+          "#A2D58A",
+          "#D7FBC7"
+        ]
+      },
+      "cuke-deep": {
+        "role": "secondary",
+        "displayName": "Deep Cucumber",
+        "canonical": "oklch(47.7% 0.104 137.5)",
+        "tonalRamp": [
+          "#001200",
+          "#012E00",
+          "#214C0A",
+          "#3F6B2D",
+          "#5E8C4D",
+          "#7FAE6D",
+          "#A4D492",
+          "#D8FBCB"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Cream Ground",
+        "canonical": "oklch(96.7% 0.016 8.2)",
+        "tonalRamp": [
+          "#11080A",
+          "#2B2122",
+          "#483C3E",
+          "#665A5C",
+          "#87797B",
+          "#A89A9C",
+          "#CEC0C2",
+          "#F9EAEC"
+        ]
+      },
+      "blush": {
+        "role": "neutral",
+        "displayName": "Blush",
+        "canonical": "oklch(93.9% 0.026 5.7)",
+        "tonalRamp": [
+          "#14070A",
+          "#2F1F22",
+          "#4C3A3E",
+          "#6B585B",
+          "#8B777B",
+          "#AD989C",
+          "#D4BEC1",
+          "#FFE8EC"
+        ]
+      },
+      "mint": {
+        "role": "neutral",
+        "displayName": "Cucumber Mint",
+        "canonical": "oklch(95.3% 0.026 128.8)",
+        "tonalRamp": [
+          "#080D03",
+          "#202719",
+          "#3C4334",
+          "#596151",
+          "#798070",
+          "#99A291",
+          "#BFC8B6",
+          "#E9F2E0"
+        ]
+      },
+      "berry": {
+        "role": "neutral",
+        "displayName": "Berry",
+        "canonical": "oklch(31.1% 0.073 350.9)",
+        "tonalRamp": [
+          "#1F000F",
+          "#3D1228",
+          "#5C2E44",
+          "#7D4C63",
+          "#9F6B83",
+          "#C28CA4",
+          "#EAB1CA",
+          "#FFE0F3"
+        ]
+      },
+      "berry-2": {
+        "role": "neutral",
+        "displayName": "Berry Two",
+        "canonical": "oklch(45.5% 0.079 346.0)",
+        "tonalRamp": [
+          "#1F0012",
+          "#3D102C",
+          "#5D2D48",
+          "#7D4B67",
+          "#A06A87",
+          "#C38BA9",
+          "#EBB0CF",
+          "#FFE0F7"
+        ]
+      },
+      "plum": {
+        "role": "neutral",
+        "displayName": "Plum",
+        "canonical": "oklch(27.2% 0.058 347.7)",
+        "tonalRamp": [
+          "#1B010F",
+          "#381729",
+          "#563345",
+          "#765064",
+          "#986F83",
+          "#BA90A5",
+          "#E2B5CB",
+          "#FFE3F4"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error Red",
+        "canonical": "oklch(47.6% 0.167 13.9)",
+        "tonalRamp": [
+          "#350000",
+          "#5A000A",
+          "#7E0025",
+          "#A42741",
+          "#CA4C60",
+          "#F06F80",
+          "#FF95A5",
+          "#FFD0D8"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Berry Hairline",
+        "canonical": "rgba(75,31,53,.14)",
+        "tonalRamp": []
+      }
+    },
+    "typographyMeta": {
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Business name only; Pacifico subset embedded as CC Script."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only, uppercase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings, uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service-row names; occasion lines in the same voice, larger."
+      },
+      "title-step": {
+        "displayName": "Step Title",
+        "purpose": "The four 'We ...' steps, uppercase, deep cucumber."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Line under the hero headline, max 30ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form legends and field labels."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Sub-lines, helper text, errors, footer."
+      }
+    },
+    "shadows": [
+      {
+        "name": "rose-drop",
+        "value": "0 8px 20px -8px rgba(158,42,80,.55)",
+        "purpose": "Filled rose buttons."
+      },
+      {
+        "name": "card-drop",
+        "value": "0 14px 34px -18px rgba(158,42,80,.45)",
+        "purpose": "Instagram card at rest."
+      },
+      {
+        "name": "card-drop-hover",
+        "value": "0 18px 40px -18px rgba(158,42,80,.6)",
+        "purpose": "Instagram card on hover."
+      },
+      {
+        "name": "plum-drop",
+        "value": "0 10px 26px -12px rgba(59,26,44,.6)",
+        "purpose": "White button on the rose close ground."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px rgba(90,138,66,.28)",
+        "purpose": "Chip and field focus."
+      }
+    ],
+    "focus": {
+      "default": "3px solid #5A8A42, offset 3px, radius 6px",
+      "onPlum": "#B6D99A",
+      "onRose": "#FFFFFF"
+    },
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": ".2s",
+        "purpose": "Buttons, arrow disc, Instagram card."
+      },
+      {
+        "name": "input-transition",
+        "value": ".15s",
+        "purpose": "Chip and field border/halo."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px)",
+        "purpose": "Button :active."
+      },
+      {
+        "name": "foam-pop",
+        "value": ".7s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Chip splash bubbles; hidden under reduced motion."
+      },
+      {
+        "name": "soak-tunables",
+        "value": "DAMP .982; DROP_EVERY [650,1500]ms; TOUCH_QUIET 2600ms; SLICES 5/7; BUBBLES 46/120; CURRENT .03; WANDER 22; PUSH_R 74px; SHORE 18px; SHORE_AMP 7px",
+        "purpose": "Hero water simulation; static settled frame under reduced motion."
+      },
+      {
+        "name": "seam-tunables",
+        "value": "SPEED 1; AMP 1; three sines 6/3.2/1.4; phase 1.7 per seam",
+        "purpose": "Section water lines; static under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wordmark-inline",
+        "value": "430px"
+      },
+      {
+        "name": "tablet",
+        "value": "760px"
+      },
+      {
+        "name": "soak-desk",
+        "value": "700px"
+      },
+      {
+        "name": "desktop",
+        "value": "1024px"
+      }
+    ],
+    "signaturePalette": {
+      "soakDeep": "rgb(232,140,168)",
+      "soakMilk": "rgb(252,216,226)",
+      "soakCssFallback": "linear-gradient(180deg,transparent 0 18px,#F2B3C3 18px,#F7C8D4 60%,#F1B0C1)",
+      "sliceSkin": "#3F6B2D",
+      "sliceBand": "#B9D57F",
+      "sliceFlesh": "#E6F0C4",
+      "seamMintLine": "#8DB86F",
+      "wordmarkOnRose": [
+        "#FFE3EA",
+        "#F9B9CB",
+        "#DDF0C7"
+      ],
+      "wordmarkOnPlum": [
+        "#F6A9C0",
+        "#C98597",
+        "#B6D99A"
+      ],
+      "wordmarkAmp": "#C98597",
+      "selection": "#F6BFD0"
+    }
+  },
+  "components": [
+    {
+      "name": "Fill Button",
+      "kind": "button",
+      "refersTo": "button-fill",
+      "description": "The one committing action on a screen.",
+      "html": "<button class=\"ds-btn ds-btn-fill\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z\"/></svg>Text this to Marissa</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;font:700 1.0625rem/1 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-decoration:none;border:2px solid #C23A66;cursor:pointer;transition:background-color .2s,color .2s,box-shadow .2s,transform .2s}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #5A8A42;outline-offset:3px}.ds-btn-fill{background:#C23A66;color:#fff;box-shadow:0 8px 20px -8px rgba(158,42,80,.55)}.ds-btn-fill:hover{background:#9E2A50;border-color:#9E2A50}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Companion action beside a fill.",
+      "html": "<button class=\"ds-btn ds-btn-line\">Text us</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;font:700 1.0625rem/1 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-decoration:none;border:2px solid #C23A66;cursor:pointer;transition:background-color .2s,color .2s,box-shadow .2s,transform .2s}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #5A8A42;outline-offset:3px}.ds-btn-line{background:transparent;color:#9E2A50}.ds-btn-line:hover{background:#fff}"
+    },
+    {
+      "name": "Close Button",
+      "kind": "button",
+      "refersTo": "close-button",
+      "description": "White pill on the rose close ground.",
+      "html": "<div class=\"ds-close\"><a class=\"ds-big\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z\"/></svg>Text us to book</a></div>",
+      "css": ".ds-close{background:#C23A66;padding:32px;text-align:center}.ds-big{display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;background:#fff;color:#9E2A50;font:800 1.25rem/1 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-decoration:none;box-shadow:0 10px 26px -12px rgba(59,26,44,.6)}.ds-big svg{color:#C23A66}.ds-big:hover{background:#FFF0F4}.ds-big:focus-visible{outline:3px solid #fff;outline-offset:3px}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Tappable service list; only the arrow disc reacts.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\">Manicures<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\"><span>Mini bars<small>On their own, or added to any party</small></span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li></ul>",
+      "css": ".ds-rows{list-style:none;margin:0;padding:0;background:#FBE4E8}.ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px;padding:10px 0;border-bottom:1px solid rgba(75,31,53,.14);text-decoration:none;color:#4B1F35;font:800 1.5rem/1.15 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif}.ds-row small{display:block;font:500 .9375rem/1.3 system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;color:#764460;margin-top:4px}.ds-row:hover,.ds-row:focus-visible{outline:none}.ds-arrow{flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:rgba(75,31,53,.07);color:#4B1F35;transition:background-color .2s,color .2s}.ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:#C23A66;color:#fff}.ds-row:focus-visible .ds-arrow{outline:3px solid #5A8A42;outline-offset:3px}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Radio/checkbox pill; rose when picked, cucumber on hover and focus.",
+      "html": "<div class=\"ds-chips\"><label class=\"ds-chip\"><input type=\"checkbox\" checked><span>Facials</span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span>Manicures</span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span>Glampagne</span></label></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:8px}.ds-chip{position:relative}.ds-chip input{position:absolute;opacity:0;width:1px;height:1px;margin:0}.ds-chip span{display:flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;background:#fff;border:2px solid #C07590;color:#4B1F35;font:600 .9375rem system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;cursor:pointer;transition:border-color .15s,background-color .15s,color .15s}.ds-chip:hover span,.ds-chip input:focus-visible+span{border-color:#5A8A42}.ds-chip input:focus-visible+span{box-shadow:0 0 0 3px rgba(90,138,66,.28)}.ds-chip input:checked+span{background:#C23A66;border-color:#C23A66;color:#fff}.ds-chip:hover input:checked+span{border-color:#5A8A42}"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Labelled text field with cucumber hover and focus.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-label\" for=\"ds-town\">Town</label><input id=\"ds-town\" class=\"ds-input\" type=\"text\" placeholder=\"e.g. Hoboken, NJ\"></div>",
+      "css": ".ds-label{display:block;font:800 1.0625rem/1.2 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;margin-bottom:10px;color:#4B1F35}.ds-input{width:100%;min-height:54px;padding:12px 16px;border-radius:16px;border:2px solid #C07590;background:#fff;color:#4B1F35;font:500 1.0625rem/1.3 system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;transition:border-color .15s,box-shadow .15s;appearance:none}.ds-input:hover{border-color:#5A8A42}.ds-input:focus{outline:none;border-color:#5A8A42;box-shadow:0 0 0 3px rgba(90,138,66,.28)}"
+    },
+    {
+      "name": "Instagram Card",
+      "kind": "card",
+      "refersTo": "instagram-card",
+      "description": "The single outbound card to Instagram.",
+      "html": "<a class=\"ds-gram\" href=\"#\"><span class=\"ds-ig\"><svg viewBox=\"0 0 24 24\" width=\"28\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><circle cx=\"17.5\" cy=\"6.5\" r=\".6\" fill=\"currentColor\"/></svg></span><span><strong>Click to see more of our parties</strong><span>@cupcakes_and_cucumbers on Instagram</span></span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a>",
+      "css": ".ds-gram{display:flex;align-items:center;gap:16px;padding:20px 22px;border-radius:24px;background:#fff;text-decoration:none;color:#4B1F35;border:2px solid #F3C6D3;box-shadow:0 14px 34px -18px rgba(158,42,80,.45);transition:border-color .2s,box-shadow .2s;font-family:system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif}.ds-gram:hover{border-color:#C23A66;box-shadow:0 18px 40px -18px rgba(158,42,80,.6)}.ds-gram:focus-visible{outline:3px solid #5A8A42;outline-offset:3px}.ds-ig{flex:none;width:52px;height:52px;border-radius:16px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#E8789A,#C23A66)}.ds-gram strong{display:block;font:800 1.25rem/1.15 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif}.ds-gram strong+span{display:block;color:#764460;font-size:.9375rem;margin-top:3px}.ds-arrow{margin-left:auto;flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:rgba(75,31,53,.07);color:#4B1F35;transition:background-color .2s,color .2s}.ds-gram:hover .ds-arrow{background:#C23A66;color:#fff}"
+    },
+    {
+      "name": "Wordmark",
+      "kind": "custom",
+      "refersTo": "typography.wordmark",
+      "description": "The only use of the script face. Falls back to cursive outside the site (the Pacifico subset is embedded in index.html).",
+      "html": "<a class=\"ds-wm\" href=\"#\"><span class=\"ds-a\">Cupcakes</span> <span class=\"ds-amp\">&amp;</span> <span class=\"ds-b\">Cucumbers</span></a>",
+      "css": ".ds-wm{font-family:\"CC Script\",Pacifico,cursive;font-size:30px;line-height:1;white-space:nowrap;text-decoration:none}.ds-a{color:#D85A82}.ds-amp{color:#C98597}.ds-b{color:#5A8A42}.ds-wm:focus-visible{outline:3px solid #5A8A42;outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Seam",
+      "kind": "custom",
+      "refersTo": "seam",
+      "description": "Wavy water boundary into the next section (static snapshot; animated by script on the site).",
+      "html": "<div class=\"ds-seam-wrap\"><svg class=\"ds-seam\" viewBox=\"0 0 1440 56\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path class=\"ds-ln\" d=\"M0 31 C240 22 480 40 720 29 S1200 20 1440 30\"/><path fill=\"#EAF3E1\" d=\"M0 38 C240 29 480 47 720 36 S1200 27 1440 37 L1440 56 L0 56Z\"/></svg><div class=\"ds-next\">You host nothing</div></div>",
+      "css": ".ds-seam-wrap{background:#FBE4E8;padding-top:40px}.ds-seam{display:block;width:100%;height:56px}.ds-ln{fill:none;stroke:#8DB86F;stroke-width:3;vector-effect:non-scaling-stroke;opacity:.3}.ds-next{background:#EAF3E1;padding:8px 20px 28px;font:800 2rem/1.02 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-transform:uppercase;color:#4B1F35}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pink Pedicure Soak",
+    "overview": "**Creative North Star: \"The Pink Pedicure Soak\"**\n\nThe whole page is a spa-party treat you can play with before the party starts. The first screen ends in a basin of milky pink water. Cucumber slices and foam bubbles float in it, it ripples on its own, and it moves under a finger or a cursor. Everything below comes from that soak. Each section boundary is a moving water line, the grounds are soft spa colours (cream, blush, cucumber mint), and the cucumber slice comes back as the step marker, the promo mark and the occasion bullet. The world comes from the business's own name and flyer: cucumber slices, pink spa water, foam, and the pink-and-cucumber-green script wordmark.\n\nThe voice is loud and friendly. Headlines are heavy, rounded and uppercase. Body copy is plain system sans so it stays quick to read. The page has one script face, and it only spells the business name. Density is low and built for a phone: one column, big type, 44 to 60px touch targets, and every action is a pill. Wider screens add columns but never change the material.\n\nThe build has no photography (the only images available show children's faces). Colour, the soak and the slice drawing carry the imagery instead.",
+    "keyCharacteristics": [
+      "An interactive water simulation is the hero image, and its water lines run down the page as section seams.",
+      "Heavy rounded uppercase headlines over a plain system-sans body.",
+      "A script wordmark (Pacifico subset) that only ever spells \"Cupcakes & Cucumbers\".",
+      "Rose marks commitment (fills, selected states, the close section). Cucumber green marks the page responding to you (focus and hover on inputs).",
+      "The darkest colours are berry and plum. The page never uses black.",
+      "Pills everywhere. Soft drop shadows tinted rose, and only on a few tappable items."
+    ],
+    "rules": [
+      {
+        "name": "The Rose Acts, Cucumber Answers Rule",
+        "body": "Rose (and deep rose) belongs to things you commit to: fills, selected chips, the close ground. Cucumber green belongs to the page answering you: focus outlines and hover or focus borders on inputs. Don't swap them. A focus ring is never rose, and a primary fill is never green.",
+        "section": "colors"
+      },
+      {
+        "name": "The Plum-Not-Black Rule",
+        "body": "The darkest colours are berry (text) and plum (footer). No surface, text or shadow uses #000. Shadows are tinted rose-deep or plum.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rotating Grounds Rule",
+        "body": "Section grounds rotate through cream, blush, mint, cream, blush, then rose for the close and plum for the footer. Two sections in a row never share a ground, so each seam always shows a change of water.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Script Rule",
+        "body": "Pacifico is subset to the glyphs of the business name and sets nothing else. It can't render other text, and it shouldn't. Headlines, buttons and labels use the rounded display stack.",
+        "section": "typography"
+      },
+      {
+        "name": "The Loud Rounded Rule",
+        "body": "Every heading voice is rounded and weight 800. Headings that name a section or step are uppercase. Never set a heading in a light or regular weight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rose-Tinted Drop Rule",
+        "body": "Shadows are soft, negative-spread and tinted rose-deep (plum on a rose ground). They appear only under a primary tappable item. No hard offsets, no neutral grey shadows, and no shadows on chips, rows, fields or section blocks.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** start every new section with a seam whose fill is the new section's ground, and change the ground at every seam (The Rotating Grounds Rule).",
+      "**Do** use rose for the one action that commits, and line buttons for its companion. Keep every button a 56px pill.",
+      "**Do** give every control its cucumber response: a cucumber border on hover, and a 3px cucumber outline or halo on focus.",
+      "**Do** reuse the cucumber slice symbol as the page's marker (steps, promo, bullets) instead of generic icons or dots.",
+      "**Do** keep touch targets at 44px or more (60px for service rows), and keep phone layouts to one column.",
+      "**Do** pause any new canvas or animated motif offscreen and give it a static reduced-motion state, as the soak and seams do.",
+      "**Do** keep the soak's look tunable through its named constants, not by editing the simulation."
+    ],
+    "donts": [
+      "**Don't** use Pacifico, or any script, for anything except the business name (The One Script Rule).",
+      "**Don't** use black or neutral grey for text, surfaces or shadows. Use berry, berry-two or plum.",
+      "**Don't** put background, outline or shadow hover states on service rows. Only the arrow disc reacts.",
+      "**Don't** use rose for focus indication or cucumber for primary fills (The Rose Acts, Cucumber Answers Rule).",
+      "**Don't** separate sections with straight rules, boxed panels or a flat colour change. The boundary is always the moving seam.",
+      "**Don't** add hard-offset, grey or ambient card shadows. Shadows are soft, tinted rose and only under primary tappable items.",
+      "**Don't** set body copy in wordmark pink, cucumber or the muted ampersand pink. They are display-only at their contrast.",
+      "**Don't** lighten the field and chip stroke (#C07590) below 3:1 against white. Paler pinks read prettier but the controls disappear."
+    ]
+  }
+}
