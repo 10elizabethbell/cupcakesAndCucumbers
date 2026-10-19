@@ -144,14 +144,18 @@ legend,label.f{display:block;font:800 1.0625rem/1.2 var(--display);margin-bottom
 .chip input:checked+span{background:var(--rose);border-color:var(--rose);color:#fff}
 .chip input:checked:focus-visible+span,.chip:hover input:checked+span{border-color:var(--cuke)}
 .two{display:grid;gap:22px}
-input[type=text],input[type=date],input[type=number],input[type=tel],textarea{width:100%;min-height:54px;padding:12px 16px;border-radius:16px;border:2px solid #C07590;background:#fff;color:var(--berry);font:500 1.0625rem/1.3 var(--body);transition:border-color .15s,box-shadow .15s;-webkit-appearance:none;appearance:none}
+input[type=text],input[type=date],input[type=number],input[type=tel],input[type=email],select,textarea{width:100%;min-height:54px;padding:12px 16px;border-radius:16px;border:2px solid #C07590;background:#fff;color:var(--berry);font:500 1.0625rem/1.3 var(--body);transition:border-color .15s,box-shadow .15s;-webkit-appearance:none;appearance:none}
 input[type=date]{display:block}
+select{padding-right:44px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5 7 7l5.5-5.5' fill='none' stroke='%239E2A50' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 18px center;cursor:pointer}
+.hint{margin:6px 0 0;font-size:.9375rem;color:var(--berry-2)}
+.group{margin:0;padding:0;border:0;min-width:0}
+.group>legend{font:800 1.25rem/1.25 var(--display);color:var(--berry);margin-bottom:14px;padding:0}
 textarea{min-height:96px;resize:vertical}
-input:hover,textarea:hover{border-color:var(--cuke)}
-input:focus,textarea:focus{outline:none;border-color:var(--cuke);box-shadow:0 0 0 3px rgba(90,138,66,.28)}
+input:hover,select:hover,textarea:hover{border-color:var(--cuke)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cuke);box-shadow:0 0 0 3px rgba(90,138,66,.28)}
 ::placeholder{color:#865A70;opacity:1}
 .err{display:none;margin-top:8px;color:#A5203F;font-weight:600;font-size:.9375rem}
-.bad input{border-color:#C2304F}
+.bad input,.bad select{border-color:#C2304F}
 .bad .err{display:block}
 .send{margin-top:4px}
 .send .btn{width:100%}
@@ -350,10 +354,18 @@ FORM: Rounded heavy uppercase display, Pacifico wordmark only, cream / blush / m
       </fieldset>
       <div class="two">
         <div class="field" id="f-date"><label class="f" for="date">Party date</label><input type="date" id="date" name="date" required><p class="err">Pick the day you have in mind, even if it might move.</p></div>
-        <div class="field" id="f-town"><label class="f" for="town">Town</label><input type="text" id="town" name="town" autocomplete="address-level2" placeholder="e.g. Hoboken, NJ" required><p class="err">Tell us the town so we know how far we're traveling.</p></div>
         <div class="field"><label class="f" for="kids">How many kids?<span class="opt">optional</span></label><input type="number" id="kids" name="kids" inputmode="numeric" min="1" max="60" placeholder="e.g. 10"></div>
-        <div class="field"><label class="f" for="ages">Their ages<span class="opt">optional</span></label><input type="text" id="ages" name="ages" placeholder="e.g. 6 to 8"></div>
+        <div class="field"><label class="f" for="ages">Guests' ages<span class="opt">optional</span></label><input type="text" id="ages" name="ages" placeholder="e.g. 6 to 8"></div>
       </div>
+      <fieldset class="group">
+        <legend>The birthday child</legend>
+        <div class="two">
+          <div class="field"><label class="f" for="cfirst">First name<span class="opt">optional</span></label><input type="text" id="cfirst" name="cfirst" autocomplete="off"></div>
+          <div class="field"><label class="f" for="clast">Last name<span class="opt">optional</span></label><input type="text" id="clast" name="clast" autocomplete="off"></div>
+          <div class="field"><label class="f" for="bday">Next birthday<span class="opt">optional</span></label><input type="date" id="bday" name="bday" aria-describedby="bday-hint"><p class="hint" id="bday-hint">The birthday coming up, not the day they were born.</p></div>
+          <div class="field"><label class="f" for="turning">Age they're turning<span class="opt">optional</span></label><input type="number" id="turning" name="turning" inputmode="numeric" min="1" max="18" placeholder="e.g. 7"></div>
+        </div>
+      </fieldset>
       <fieldset>
         <legend>What would she love?<span class="opt">optional</span></legend>
         <div class="chips" id="picks">
@@ -372,7 +384,33 @@ FORM: Rounded heavy uppercase display, Pacifico wordmark only, cream / blush / m
           <label class="chip"><input type="checkbox" name="pick" value="Tables &amp; chairs"><span>Tables &amp; chairs</span></label>
         </div>
       </fieldset>
-      <div class="field" id="f-name"><label class="f" for="name">Your name</label><input type="text" id="name" name="name" autocomplete="name" required><p class="err">Add your name so we know who's texting.</p></div>
+      <fieldset class="group">
+        <legend>You</legend>
+        <div class="two">
+          <div class="field" id="f-first"><label class="f" for="first">First name</label><input type="text" id="first" name="first" autocomplete="given-name" required><p class="err">Add your first name so we know who's texting.</p></div>
+          <div class="field" id="f-last"><label class="f" for="last">Last name</label><input type="text" id="last" name="last" autocomplete="family-name" required><p class="err">Add your last name too.</p></div>
+          <div class="field" id="f-phone"><label class="f" for="phone">Phone<span class="opt">optional</span></label><input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="(000) 000-0000"><p class="err">That number looks short. Use all 10 digits.</p></div>
+          <div class="field" id="f-email"><label class="f" for="email">Email<span class="opt">optional</span></label><input type="email" id="email" name="email" autocomplete="email" inputmode="email" placeholder="you@example.com"><p class="err">Check the email address, it's missing something.</p></div>
+        </div>
+      </fieldset>
+      <fieldset class="group">
+        <legend>Where's the party?</legend>
+        <div class="two">
+          <div class="field"><label class="f" for="street">Street address<span class="opt">optional</span></label><input type="text" id="street" name="street" autocomplete="address-line1"></div>
+          <div class="field"><label class="f" for="street2">Apt, unit, floor<span class="opt">optional</span></label><input type="text" id="street2" name="street2" autocomplete="address-line2"></div>
+          <div class="field" id="f-town"><label class="f" for="town">Town</label><input type="text" id="town" name="town" autocomplete="address-level2" placeholder="e.g. Hoboken" required><p class="err">Tell us the town so we know how far we're traveling.</p></div>
+          <div class="field"><label class="f" for="state">State<span class="opt">optional</span></label><select id="state" name="state" autocomplete="address-level1"><option value="">Choose</option><option value="NJ">New Jersey</option><option value="NY">New York</option></select></div>
+          <div class="field"><label class="f" for="zip">ZIP code<span class="opt">optional</span></label><input type="text" id="zip" name="zip" autocomplete="postal-code" inputmode="numeric" maxlength="10" placeholder="e.g. 07030"></div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Have you partied with us before?<span class="opt">optional</span></legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="before" value="Yes"><span>Yes</span></label>
+          <label class="chip"><input type="radio" name="before" value="No"><span>No, first time</span></label>
+        </div>
+      </fieldset>
+      <div class="field"><label class="f" for="heard">How did you hear about us?<span class="opt">optional</span></label><select id="heard" name="heard"><option value="">Choose</option><option>Friend or family</option><option>Social media</option><option>Online search</option><option>School or community event</option><option>Other</option></select></div>
       <div class="field"><label class="f" for="notes">Anything else?<span class="opt">optional</span></label><textarea id="notes" name="notes" placeholder="Theme, time of day, allergies, the birthday girl's favorite color..."></textarea></div>
       <div class="send">
         <button class="btn btn-fill" type="submit"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Text this to Marissa</button>
@@ -846,31 +884,49 @@ FORM: Rounded heavy uppercase display, Pacifico wordmark only, cream / blush / m
   });
 
   var d = document.getElementById('date'), now = new Date();
-  d.min = new Date(now.getTime() - now.getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+  document.getElementById('bday').min = d.min = new Date(now.getTime() - now.getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
 
   function val(id) { return document.getElementById(id).value.trim(); }
+  function nice(date) {
+    var dd = new Date(date + 'T12:00:00');
+    return date && !isNaN(dd) ? dd.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' }) : date;
+  }
   function compose() {
     var occ = form.querySelector('input[name=occasion]:checked');
     var picks = [].map.call(form.querySelectorAll('input[name=pick]:checked'), function (c) { return c.value; });
-    var date = val('date'), when = date;
-    if (date) { var dd = new Date(date + 'T12:00:00'); if (!isNaN(dd)) when = dd.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' }); }
+    var when = nice(val('date'));
     var lines = ["Hi Cupcakes & Cucumbers! I'd like to plan a spa party."];
     if (occ) lines.push('Occasion: ' + occ.value);
     lines.push('Date: ' + when);
-    lines.push('Town: ' + val('town'));
     if (val('kids')) lines.push('Kids: ' + val('kids'));
-    if (val('ages')) lines.push('Ages: ' + val('ages'));
+    if (val('ages')) lines.push("Guests' ages: " + val('ages'));
+    var child = [val('cfirst'), val('clast')].join(' ').trim();
+    if (child) lines.push('Birthday child: ' + child);
+    if (val('bday')) lines.push('Next birthday: ' + nice(val('bday')));
+    if (val('turning')) lines.push('Turning: ' + val('turning'));
     if (picks.length) lines.push('She would love: ' + picks.join(', '));
+    var addr = [val('street'), val('street2')].filter(Boolean).join(', ');
+    var place = [val('town'), [val('state'), val('zip')].filter(Boolean).join(' ')].filter(Boolean).join(', ');
+    lines.push('Address: ' + (addr ? addr + ', ' : '') + place);
+    if (val('phone')) lines.push('Phone: ' + val('phone'));
+    if (val('email')) lines.push('Email: ' + val('email'));
+    var before = form.querySelector('input[name=before]:checked');
+    if (before) lines.push('Partied with you before: ' + before.value);
+    if (val('heard')) lines.push('Heard about you from: ' + val('heard'));
     if (val('notes')) lines.push('Notes: ' + val('notes'));
-    lines.push('- ' + val('name'));
+    lines.push('- ' + val('first') + ' ' + val('last'));
     return lines.join('\n');
   }
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     var first = null;
-    [['f-date', 'date'], ['f-town', 'town'], ['f-name', 'name']].forEach(function (p) {
-      var bad = !val(p[1]); document.getElementById(p[0]).classList.toggle('bad', bad);
+    var checks = {
+      phone: function (v) { return !v || v.replace(/\D/g, '').length >= 10; },
+      email: function (v) { return !v || document.getElementById('email').validity.valid; }
+    };
+    [['f-date', 'date'], ['f-first', 'first'], ['f-last', 'last'], ['f-phone', 'phone'], ['f-email', 'email'], ['f-town', 'town']].forEach(function (p) {
+      var v = val(p[1]), bad = checks[p[1]] ? !checks[p[1]](v) : !v; document.getElementById(p[0]).classList.toggle('bad', bad);
       document.getElementById(p[1]).setAttribute('aria-invalid', bad ? 'true' : 'false');
       if (bad && !first) first = document.getElementById(p[1]);
     });
