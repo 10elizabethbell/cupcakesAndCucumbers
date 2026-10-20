@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#fbf5f6">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Cupcakes &amp; Cucumbers · The spa comes to you in NY &amp; NJ">
-<meta property="og:description" content="Luxury at-home spa parties for little divas. We travel. We set up. We host. We clean up. 10% off parties booked before the end of 2026.">
+<meta property="og:description" content="Luxury at-home spa parties for little divas. We travel. We set up. We host. We clean up. 10% off parties booked in 2026.">
 <meta property="og:url" content="https://10elizabethbell.github.io/cupcakesAndCucumbers/">
 <meta property="og:image" content="https://10elizabethbell.github.io/cupcakesAndCucumbers/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -157,11 +157,14 @@ form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,3
 .hint{font-size:14px;line-height:1.4;color:var(--soft)}
 fieldset{border:0;margin:0;padding:0;min-width:0}
 fieldset.set{display:grid;gap:16px}
-fieldset.set>legend{font-size:20px;margin-bottom:14px}
+fieldset.set{padding-top:24px;border-top:1px solid var(--line)}
+fieldset.set>legend{font-size:23px;margin-bottom:4px;float:left;width:100%}
+fieldset.set>legend+*{clear:both}
 .two{display:grid;gap:16px}
 .chips legend{margin-bottom:12px}
 input[type=text],input[type=tel],input[type=email],input[type=number],input[type=date],select,textarea{width:100%;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:var(--r-field);padding:13px 14px;min-height:52px;caret-color:var(--navy);transition:border-color .15s;-webkit-appearance:none;appearance:none}
 input[type=date]{display:block;min-width:0}
+input[type=date]::-webkit-date-and-time-value{text-align:left}
 select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231d3a20' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:18px;padding-right:44px}
 textarea{min-height:120px;resize:vertical}
 input::placeholder,textarea::placeholder{color:#5f6a5b}
@@ -248,6 +251,9 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
   .ask .wrap{grid-template-columns:1fr 1.5fr;gap:64px;align-items:start}
   .ask .head{position:sticky;top:40px}
   .two{grid-template-columns:1fr 1fr}
+  .two.three{grid-template-columns:1fr 1fr 1fr}
+  .two.three .field{grid-template-rows:1fr auto;align-items:end}
+  #f-street{grid-column:1/-1}
   .close .wrap{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end}
   .bigtel{margin-top:0}
 }
@@ -310,7 +316,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <svg class="s3" viewBox="0 0 48 48"><use href="#i-slice"/></svg>
   </div>
   <div class="wrap hero-copy">
-    <p class="eyebrow">10% off parties booked by the end of 2026</p>
+    <p class="eyebrow">10% off parties booked in 2026</p>
     <h1 id="h1">The spa comes to you in <span class="accent">NY &amp; NJ.</span></h1>
     <p class="promise"><b>Luxury at-home spa parties for little divas.</b> We bring everything, and we leave nothing behind.</p>
     <div class="actions">
@@ -358,10 +364,10 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 <section class="on-paper how" aria-labelledby="h-how">
   <div class="wrap">
-    <h2 id="h-how" class="rise">You host <span class="accent">nothing.</span></h2>
+    <h2 id="h-how" class="rise">You host nothing.</h2>
     <ol class="steps">
       <li class="rise"><div><b>We travel.</b><span>Right to your door in New York and New Jersey.</span></div></li>
-      <li class="rise"><div><b>We set up.</b><span>Your living room is her spa before the first guest arrives.</span></div></li>
+      <li class="rise"><div><b>We set up.</b><span>Your living room becomes her spa.</span></div></li>
       <li class="rise"><div><b>We host.</b><span>Every little guest gets pampered.</span></div></li>
       <li class="rise"><div><b>We clean up.</b><span>We leave your home the way we found it.</span></div></li>
     </ol>
@@ -396,35 +402,9 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <div class="head rise">
       <p class="eyebrow">Goes straight to Marissa</p>
       <h2 id="h-plan">Plan her party</h2>
-      <p class="lede">Tell us the day and the town. Marissa texts you back to plan the rest.</p>
+      <p class="lede">Tell us the day and the town. Marissa gets back to you to plan the rest.</p>
     </div>
     <form id="plan-form" class="rise" novalidate>
-      <fieldset class="chips">
-        <legend>What's the occasion? <span class="opt">optional</span></legend>
-        <div class="chipset">
-          <input type="radio" name="occasion" id="o1" value="Birthday party"><label for="o1">Birthday</label>
-          <input type="radio" name="occasion" id="o2" value="Sleepover"><label for="o2">Sleepover</label>
-          <input type="radio" name="occasion" id="o3" value="Girls night"><label for="o3">Girls night</label>
-          <input type="radio" name="occasion" id="o4" value="Craft night"><label for="o4">Craft night</label>
-          <input type="radio" name="occasion" id="o5" value="Halloween party"><label for="o5">Halloween</label>
-          <input type="radio" name="occasion" id="o6" value="Friendsgiving"><label for="o6">Friendsgiving</label>
-          <input type="radio" name="occasion" id="o7" value="Other"><label for="o7">Something else</label>
-        </div>
-      </fieldset>
-      <div class="two">
-        <div class="field" id="f-date"><label for="date">Party date</label><input type="date" id="date" name="date" aria-describedby="e-date"><p class="err" id="e-date">Pick the day you have in mind, even if it might move.</p></div>
-        <div class="field"><label for="kids">How many kids? <span class="opt">optional</span></label><input type="number" id="kids" name="kids" inputmode="numeric" min="1" max="60" placeholder="e.g. 10"></div>
-        <div class="field"><label for="ages">Guests' ages <span class="opt">optional</span></label><input type="text" id="ages" name="ages" autocomplete="off" placeholder="e.g. 6 to 8"></div>
-      </div>
-      <fieldset class="set">
-        <legend>The birthday child</legend>
-        <div class="two">
-          <div class="field"><label for="cfirst">First name <span class="opt">optional</span></label><input type="text" id="cfirst" name="cfirst" autocomplete="off"></div>
-          <div class="field"><label for="clast">Last name <span class="opt">optional</span></label><input type="text" id="clast" name="clast" autocomplete="off"></div>
-          <div class="field"><label for="bday">Next birthday <span class="opt">optional</span></label><input type="date" id="bday" name="bday" aria-describedby="bday-hint"><p class="hint" id="bday-hint">The birthday coming up, not the day they were born.</p></div>
-          <div class="field"><label for="turning">Age they're turning <span class="opt">optional</span></label><input type="number" id="turning" name="turning" inputmode="numeric" min="1" max="18" placeholder="e.g. 7"></div>
-        </div>
-      </fieldset>
       <fieldset class="chips">
         <legend>What would she love? <span class="opt">optional</span></legend>
         <div class="chipset" id="picks">
@@ -443,23 +423,49 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
           <input type="checkbox" name="pick" id="p13" value="Tables &amp; chairs"><label for="p13">Tables &amp; chairs</label>
         </div>
       </fieldset>
+      <fieldset class="chips">
+        <legend>What's the occasion? <span class="opt">optional</span></legend>
+        <div class="chipset">
+          <input type="radio" name="occasion" id="o1" value="Birthday party"><label for="o1">Birthday</label>
+          <input type="radio" name="occasion" id="o2" value="Sleepover"><label for="o2">Sleepover</label>
+          <input type="radio" name="occasion" id="o3" value="Girls night"><label for="o3">Girls night</label>
+          <input type="radio" name="occasion" id="o4" value="Craft night"><label for="o4">Craft night</label>
+          <input type="radio" name="occasion" id="o5" value="Halloween party"><label for="o5">Halloween</label>
+          <input type="radio" name="occasion" id="o6" value="Friendsgiving"><label for="o6">Friendsgiving</label>
+          <input type="radio" name="occasion" id="o7" value="Other"><label for="o7">Something else</label>
+        </div>
+      </fieldset>
+      <div class="two three">
+        <div class="field" id="f-date"><label for="date">Party date</label><input type="date" id="date" name="date" aria-required="true" aria-describedby="e-date"><p class="err" id="e-date">Pick the day you have in mind, even if it might move.</p></div>
+        <div class="field"><label for="kids">How many kids? <span class="opt">optional</span></label><input type="number" id="kids" name="kids" inputmode="numeric" min="1" max="60" placeholder="e.g. 10"></div>
+        <div class="field"><label for="ages">Guests' ages <span class="opt">optional</span></label><input type="text" id="ages" name="ages" autocomplete="off" placeholder="e.g. 6 to 8"></div>
+      </div>
+      <fieldset class="set">
+        <legend>Where's the party?</legend>
+        <div class="two">
+          <div class="field" id="f-street"><label for="street">Street address <span class="opt">optional</span></label><input type="text" id="street" name="street" autocomplete="address-line1"></div>
+          <div class="field"><label for="street2">Apt, unit, floor <span class="opt">optional</span></label><input type="text" id="street2" name="street2" autocomplete="address-line2"></div>
+          <div class="field" id="f-town"><label for="town">Town</label><input type="text" id="town" name="town" aria-required="true" autocomplete="address-level2" placeholder="e.g. Hoboken" aria-describedby="e-town"><p class="err" id="e-town">Tell us the town so we know how far we're traveling.</p></div>
+          <div class="field"><label for="state">State <span class="opt">optional</span></label><select id="state" name="state" autocomplete="address-level1"><option value="">Choose</option><option value="NJ">New Jersey</option><option value="NY">New York</option></select></div>
+          <div class="field"><label for="zip">ZIP code <span class="opt">optional</span></label><input type="text" id="zip" name="zip" autocomplete="postal-code" inputmode="numeric" maxlength="10" placeholder="e.g. 07030"></div>
+        </div>
+      </fieldset>
       <fieldset class="set">
         <legend>You</legend>
         <div class="two">
-          <div class="field" id="f-first"><label for="first">First name</label><input type="text" id="first" name="first" autocomplete="given-name" maxlength="40" aria-describedby="e-first"><p class="err" id="e-first">Add your first name so we know who's texting.</p></div>
-          <div class="field" id="f-last"><label for="last">Last name</label><input type="text" id="last" name="last" autocomplete="family-name" maxlength="40" aria-describedby="e-last"><p class="err" id="e-last">Add your last name too.</p></div>
+          <div class="field" id="f-first"><label for="first">First name</label><input type="text" id="first" name="first" aria-required="true" autocomplete="given-name" maxlength="40" aria-describedby="e-first"><p class="err" id="e-first">Add your first name so we know who's texting.</p></div>
+          <div class="field" id="f-last"><label for="last">Last name</label><input type="text" id="last" name="last" aria-required="true" autocomplete="family-name" maxlength="40" aria-describedby="e-last"><p class="err" id="e-last">Add your last name too.</p></div>
           <div class="field" id="f-phone"><label for="phone">Phone <span class="opt">optional</span></label><input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="(000) 000-0000" aria-describedby="e-phone"><p class="err" id="e-phone">That number looks short. Use all 10 digits.</p></div>
           <div class="field" id="f-email"><label for="email">Email <span class="opt">optional</span></label><input type="email" id="email" name="email" autocomplete="email" inputmode="email" placeholder="you@example.com" aria-describedby="e-email"><p class="err" id="e-email">Check the email address, it's missing something.</p></div>
         </div>
       </fieldset>
       <fieldset class="set">
-        <legend>Where's the party?</legend>
+        <legend>The birthday girl</legend>
         <div class="two">
-          <div class="field"><label for="street">Street address <span class="opt">optional</span></label><input type="text" id="street" name="street" autocomplete="address-line1"></div>
-          <div class="field"><label for="street2">Apt, unit, floor <span class="opt">optional</span></label><input type="text" id="street2" name="street2" autocomplete="address-line2"></div>
-          <div class="field" id="f-town"><label for="town">Town</label><input type="text" id="town" name="town" autocomplete="address-level2" placeholder="e.g. Hoboken" aria-describedby="e-town"><p class="err" id="e-town">Tell us the town so we know how far we're traveling.</p></div>
-          <div class="field"><label for="state">State <span class="opt">optional</span></label><select id="state" name="state" autocomplete="address-level1"><option value="">Choose</option><option value="NJ">New Jersey</option><option value="NY">New York</option></select></div>
-          <div class="field"><label for="zip">ZIP code <span class="opt">optional</span></label><input type="text" id="zip" name="zip" autocomplete="postal-code" inputmode="numeric" maxlength="10" placeholder="e.g. 07030"></div>
+          <div class="field"><label for="cfirst">First name <span class="opt">optional</span></label><input type="text" id="cfirst" name="cfirst" autocomplete="off"></div>
+          <div class="field"><label for="clast">Last name <span class="opt">optional</span></label><input type="text" id="clast" name="clast" autocomplete="off"></div>
+          <div class="field"><label for="bday">Next birthday <span class="opt">optional</span></label><input type="date" id="bday" name="bday" aria-describedby="bday-hint"><p class="hint" id="bday-hint">The birthday coming up, not the day she was born.</p></div>
+          <div class="field"><label for="turning">Age she's turning <span class="opt">optional</span></label><input type="number" id="turning" name="turning" inputmode="numeric" min="1" max="18" placeholder="e.g. 7"></div>
         </div>
       </fieldset>
       <fieldset class="chips">
@@ -492,7 +498,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <div class="wrap">
     <div class="rise">
       <h2 id="h-close" class="wordmark"><span class="a">Cupcakes</span> <span class="amp">&amp;</span> <span class="b">Cucumbers</span></h2>
-      <p class="who"><b>Let's end our first year with a bang.</b> 10% off every party booked before the end of 2026.</p>
+      <p class="who"><b>Let's end our first year with a bang.</b> 10% off every party booked in 2026.</p>
       <p class="area">Serving New York &amp; New Jersey. Not sure we come to your town? Call and ask.</p>
     </div>
     <a class="bigtel rise" href="tel:+13476208903"><svg aria-hidden="true"><use href="#i-phone"/></svg>347-620-8903</a>
@@ -505,7 +511,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <p class="wordmark"><span class="a">Cupcakes</span> <span class="amp">&amp;</span> <span class="b">Cucumbers</span></p>
     <span>Luxury at-home spa parties for little divas · Marissa Palumbo · Serving New York &amp; New Jersey · <span class="nw">347-620-8903</span></span>
     <nav aria-label="Contact">
-      <a href="tel:+13476208903">Call 347-620-8903</a>
       <a href="https://www.instagram.com/cupcakes_and_cucumbers/" rel="noopener">Instagram</a>
     </nav>
   </div>
@@ -526,6 +531,11 @@ document.documentElement.classList.add('js');
   var h=document.getElementById('h1');
   if(!h||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
   var plain=h.innerHTML,i=0,last=null;
+  // wait for Cal Sans (at most 700ms) so the letters don't bounce in the fallback face
+  h.style.visibility='hidden';
+  var ready=document.fonts&&document.fonts.load?Promise.race([document.fonts.load('400 80px "Cal Sans"'),new Promise(function(r){setTimeout(r,700)})]):Promise.resolve();
+  ready.catch(function(){}).then(go);
+  function go(){
   h.setAttribute('aria-label',h.textContent.replace(/\s+/g,' ').trim());
   function split(node,into){
     [].slice.call(node.childNodes).forEach(function(n){
@@ -542,7 +552,9 @@ document.documentElement.classList.add('js');
   }
   var frag=document.createDocumentFragment();split(h,frag);h.textContent='';h.appendChild(frag);
   // once the last letter lands, put the plain heading back so kerning and text selection return
+  h.style.visibility='';
   if(last)last.addEventListener('animationend',function(){h.innerHTML=plain;h.removeAttribute('aria-label')});
+  }
 })();
 
 /* ===== Plan form: composes a text to Marissa ===== */
@@ -602,7 +614,7 @@ document.documentElement.classList.add('js');
       phone:function(v){return !v||v.replace(/\D/g,'').length>=10},
       email:function(v){return !v||document.getElementById('email').validity.valid}
     };
-    [['f-date','date'],['f-first','first'],['f-last','last'],['f-phone','phone'],['f-email','email'],['f-town','town']].forEach(function(p){
+    [['f-date','date'],['f-town','town'],['f-first','first'],['f-last','last'],['f-phone','phone'],['f-email','email']].forEach(function(p){
       var v=val(p[1]),bad=ok[p[1]]?!ok[p[1]](v):!v;
       document.getElementById(p[0]).classList.toggle('bad',bad);
       document.getElementById(p[1]).setAttribute('aria-invalid',bad?'true':'false');
