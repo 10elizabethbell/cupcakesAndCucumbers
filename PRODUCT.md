@@ -4,7 +4,7 @@
 web
 
 ## Stack
-Static single-file HTML/CSS/JS (`index.html`), no frameworks, no tracking, system font stack. Hosted on GitHub Pages.
+Static single-file HTML/CSS/JS (`index.html`), no frameworks, no tracking. Cal Sans (Google Fonts) for headings, system stack for body, an embedded Pacifico subset for the wordmark. Hosted on GitHub Pages.
 
 ## Users
 - Parents (mostly moms, inferred from the caption's tone: "You sit back, relax, and watch your child have the best time of their life!") planning a party for a young girl in New York or New Jersey.
@@ -43,4 +43,4 @@ Give the owner, Marissa, a real website where there is none, and turn parents in
 ## Principles
 - Phone first: the first screen shows a spa party at home, for NY & NJ, and how to book.
 - Only facts from the brief, the flyer and the Instagram profile. Nothing invented.
-- The page should feel like the party itself: cucumber slices, bubbles, pink.
+- Calm band style (Ellie's house default since 2026-10-19, after lpmr.co.uk): blush paper, cucumber-green bands, one cupcake-pink accent. Calm and grown-up enough that a parent trusts it with their daughter's party.
