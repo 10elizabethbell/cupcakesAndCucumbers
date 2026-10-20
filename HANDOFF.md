@@ -61,3 +61,7 @@ The business hadn't been contacted, so the whole page was rebuilt under the new 
 - Contrast by calculation: pink-on-green H1 accent 3.4:1 (large text only), white on green 6.4:1, dark green on pink 6.6:1, pink ink on paper 6.3:1, placeholder on field 4.6:1.
 - Impeccable: detector (only `repeating-stripes-gradient`, kept; design-system drift findings were against the old DESIGN.md, now rewritten), then the finish reviewer covering critique, audit, polish, clarify, typeset, layout, colorize, harden, adapt, animate, delight, distill, quieter/bolder and optimize. Applied: footer call link cut, form reordered, bounce-in waits for the font, eyebrow shortened for 360px, copy truth fixes, no accent on the light-band heading, form section dividers and desktop rows, `aria-required` on required fields, iOS date alignment.
 - Finishing-rules checklist re-checked after the fixes.
+
+## Call Sheet
+- `call-sheet-site.sh` returned `LOCK BUSY: held by muse 2026-10-19 21:56` twice (2026-10-19 evening). The sheet already lists this prospect with the same live URL (read-only check of `prospects.json`), so nothing needed to change; no hand edit made.
+- Detector leftovers after the DESIGN.md rewrite are advisory design-system drift (wordmark colours on dark bands, a few one-off sizes/radii not in DESIGN.md) plus the kept band texture.
