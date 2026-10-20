@@ -1,488 +1,499 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-17T00:00:00Z",
+  "generatedAt": "2026-10-19T22:00:00Z",
   "title": "Design System: Cupcakes & Cucumbers",
   "extensions": {
     "colorMeta": {
-      "rose": {
-        "role": "primary",
-        "displayName": "Party Rose",
-        "canonical": "oklch(55.9% 0.174 5.2)",
+      "paper": {
+        "role": "neutral",
+        "displayName": "Blush Paper",
+        "canonical": "#fbf5f6",
+        "oklch": "oklch(97.5% 0.007 5.6)",
         "tonalRamp": [
-          "#340004",
-          "#580019",
-          "#7C0034",
-          "#A12751",
-          "#C74C70",
-          "#EE6E91",
-          "#FF94B6",
-          "#FFCEE4"
+          "#0e0a0b",
+          "#282424",
+          "#454141",
+          "#656061",
+          "#868182",
+          "#a9a3a4",
+          "#cdc7c8",
+          "#f3edee"
         ]
       },
-      "rose-deep": {
-        "role": "primary",
-        "displayName": "Deep Rose",
-        "canonical": "oklch(47.6% 0.154 5.5)",
+      "card": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
         "tonalRamp": [
-          "#320003",
-          "#560019",
-          "#7A0034",
-          "#9F2B51",
-          "#C54F70",
-          "#EB7191",
-          "#FF97B6",
-          "#FFD2E5"
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
         ]
       },
-      "pink": {
-        "role": "primary",
-        "displayName": "Wordmark Pink",
-        "canonical": "oklch(63.8% 0.162 3.0)",
+      "field": {
+        "role": "neutral",
+        "displayName": "Rose Field",
+        "canonical": "#f3e4ea",
+        "oklch": "oklch(93.2% 0.018 351.2)",
         "tonalRamp": [
-          "#330005",
-          "#57001C",
-          "#7C0037",
-          "#A12755",
-          "#C64C74",
-          "#ED6E95",
-          "#FF94BA",
-          "#FFD1E7"
+          "#11080c",
+          "#2c2226",
+          "#4a3e43",
+          "#6a5d62",
+          "#8b7e84",
+          "#afa1a6",
+          "#d3c5ca",
+          "#f9eaf0"
         ]
       },
-      "foam-pink": {
-        "role": "primary",
-        "displayName": "Foam Pink",
-        "canonical": "oklch(70.9% 0.142 2.1)",
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1d3a20",
+        "oklch": "oklch(31.8% 0.058 146.4)",
         "tonalRamp": [
-          "#2F0007",
-          "#52001F",
-          "#76093A",
-          "#9A3257",
-          "#BF5376",
-          "#E57597",
-          "#FF9BBD",
-          "#FFD4E9"
+          "#011002",
+          "#0f2c13",
+          "#2d4a2f",
+          "#4c6a4e",
+          "#6c8c6e",
+          "#8eaf90",
+          "#b2d4b3",
+          "#d6fad8"
         ]
       },
-      "cuke": {
+      "body": {
+        "role": "neutral",
+        "displayName": "Body Green-Grey",
+        "canonical": "#2e3a2c",
+        "oklch": "oklch(33.3% 0.029 141.1)",
+        "tonalRamp": [
+          "#050e04",
+          "#1d291b",
+          "#3a4638",
+          "#586656",
+          "#798777",
+          "#9baa99",
+          "#bfcebd",
+          "#e4f4e2"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft Sage",
+        "canonical": "#4f5a4b",
+        "oklch": "oklch(45.3% 0.028 137.3)",
+        "tonalRamp": [
+          "#060e04",
+          "#1f281b",
+          "#3b4637",
+          "#5a6556",
+          "#7b8676",
+          "#9da999",
+          "#c1cebc",
+          "#e6f3e1"
+        ]
+      },
+      "cucumber": {
         "role": "secondary",
-        "displayName": "Cucumber",
-        "canonical": "oklch(58.2% 0.115 136.2)",
+        "displayName": "Cucumber Skin",
+        "canonical": "#3b6a34",
+        "oklch": "oklch(47.7% 0.098 141.2)",
         "tonalRamp": [
-          "#001300",
-          "#002E00",
-          "#1F4C00",
-          "#3D6C23",
-          "#5C8D44",
-          "#7DAF65",
-          "#A2D58A",
-          "#D7FBC7"
+          "#011000",
+          "#042f00",
+          "#1f4e19",
+          "#406f39",
+          "#609159",
+          "#83b57b",
+          "#a6da9e",
+          "#cdffc5"
         ]
       },
-      "cuke-deep": {
+      "cucumber-deep": {
         "role": "secondary",
         "displayName": "Deep Cucumber",
-        "canonical": "oklch(47.7% 0.104 137.5)",
+        "canonical": "#1f3a22",
+        "oklch": "oklch(31.9% 0.054 146.7)",
         "tonalRamp": [
-          "#001200",
-          "#012E00",
-          "#214C0A",
-          "#3F6B2D",
-          "#5E8C4D",
-          "#7FAE6D",
-          "#A4D492",
-          "#D8FBCB"
+          "#001002",
+          "#112c15",
+          "#2e4a31",
+          "#4d6a4f",
+          "#6e8b70",
+          "#90af92",
+          "#b3d3b5",
+          "#d8f9da"
         ]
       },
-      "ground": {
+      "on-dark": {
         "role": "neutral",
-        "displayName": "Cream Ground",
-        "canonical": "oklch(96.7% 0.016 8.2)",
+        "displayName": "Leaf White",
+        "canonical": "#f7fbf3",
+        "oklch": "oklch(98.3% 0.011 128.6)",
         "tonalRamp": [
-          "#11080A",
-          "#2B2122",
-          "#483C3E",
-          "#665A5C",
-          "#87797B",
-          "#A89A9C",
-          "#CEC0C2",
-          "#F9EAEC"
+          "#0a0c07",
+          "#232620",
+          "#40433d",
+          "#5f635c",
+          "#80847d",
+          "#a3a69f",
+          "#c7cbc3",
+          "#ecf0e8"
         ]
       },
-      "blush": {
+      "on-dark-soft": {
         "role": "neutral",
-        "displayName": "Blush",
-        "canonical": "oklch(93.9% 0.026 5.7)",
+        "displayName": "Pale Leaf",
+        "canonical": "#dbe8d2",
+        "oklch": "oklch(91.5% 0.032 132.3)",
         "tonalRamp": [
-          "#14070A",
-          "#2F1F22",
-          "#4C3A3E",
-          "#6B585B",
-          "#8B777B",
-          "#AD989C",
-          "#D4BEC1",
-          "#FFE8EC"
+          "#060e02",
+          "#1f2818",
+          "#3b4634",
+          "#5a6552",
+          "#7b8773",
+          "#9daa95",
+          "#c1ceb8",
+          "#e6f4dd"
         ]
       },
-      "mint": {
-        "role": "neutral",
-        "displayName": "Cucumber Mint",
-        "canonical": "oklch(95.3% 0.026 128.8)",
+      "cupcake-pink": {
+        "role": "primary",
+        "displayName": "Cupcake Pink",
+        "canonical": "#f6a6c0",
+        "oklch": "oklch(81.0% 0.099 358.5)",
         "tonalRamp": [
-          "#080D03",
-          "#202719",
-          "#3C4334",
-          "#596151",
-          "#798070",
-          "#99A291",
-          "#BFC8B6",
-          "#E9F2E0"
+          "#1d000b",
+          "#470524",
+          "#6a2741",
+          "#8d4760",
+          "#b26881",
+          "#d88aa4",
+          "#ffaec8",
+          "#fde8ee"
         ]
       },
-      "berry": {
-        "role": "neutral",
-        "displayName": "Berry",
-        "canonical": "oklch(31.1% 0.073 350.9)",
+      "cupcake-pink-light": {
+        "role": "primary",
+        "displayName": "Pink Frosting",
+        "canonical": "#f9bfd2",
+        "oklch": "oklch(86.2% 0.071 357.2)",
         "tonalRamp": [
-          "#1F000F",
-          "#3D1228",
-          "#5C2E44",
-          "#7D4C63",
-          "#9F6B83",
-          "#C28CA4",
-          "#EAB1CA",
-          "#FFE0F3"
+          "#1d000b",
+          "#3e1425",
+          "#5f3142",
+          "#825062",
+          "#a57183",
+          "#ca93a5",
+          "#f0b7ca",
+          "#fee8ef"
         ]
       },
-      "berry-2": {
-        "role": "neutral",
-        "displayName": "Berry Two",
-        "canonical": "oklch(45.5% 0.079 346.0)",
+      "pink-ink": {
+        "role": "primary",
+        "displayName": "Pink Ink",
+        "canonical": "#a52c59",
+        "oklch": "oklch(49.3% 0.160 2.6)",
         "tonalRamp": [
-          "#1F0012",
-          "#3D102C",
-          "#5D2D48",
-          "#7D4B67",
-          "#A06A87",
-          "#C38BA9",
-          "#EBB0CF",
-          "#FFE0F7"
-        ]
-      },
-      "plum": {
-        "role": "neutral",
-        "displayName": "Plum",
-        "canonical": "oklch(27.2% 0.058 347.7)",
-        "tonalRamp": [
-          "#1B010F",
-          "#381729",
-          "#563345",
-          "#765064",
-          "#986F83",
-          "#BA90A5",
-          "#E2B5CB",
-          "#FFE3F4"
+          "#1d0009",
+          "#4a0120",
+          "#7b033b",
+          "#a52c59",
+          "#cc517a",
+          "#f4759c",
+          "#feafc3",
+          "#fee8ed"
         ]
       },
       "error": {
-        "role": "neutral",
+        "role": "error",
         "displayName": "Error Red",
-        "canonical": "oklch(47.6% 0.167 13.9)",
+        "canonical": "#b3261e",
+        "oklch": "oklch(50.1% 0.178 28.7)",
         "tonalRamp": [
-          "#350000",
-          "#5A000A",
-          "#7E0025",
-          "#A42741",
-          "#CA4C60",
-          "#F06F80",
-          "#FF95A5",
-          "#FFD0D8"
+          "#1e0101",
+          "#4d0001",
+          "#800203",
+          "#b0221b",
+          "#d84c3f",
+          "#ff7363",
+          "#feb4a9",
+          "#fee9e6"
         ]
-      },
-      "line": {
-        "role": "neutral",
-        "displayName": "Berry Hairline",
-        "canonical": "rgba(75,31,53,.14)",
-        "tonalRamp": []
       }
     },
     "typographyMeta": {
-      "wordmark": {
-        "displayName": "Wordmark",
-        "purpose": "Business name only; Pacifico subset embedded as CC Script."
-      },
       "display": {
         "displayName": "Display",
-        "purpose": "Hero headline only, uppercase."
+        "purpose": "Hero H1 only; white on the green hero, last phrase in Cupcake Pink; bounces in letter by letter."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Section headings, uppercase."
+        "purpose": "One H2 per band."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Service-row names; occasion lines in the same voice, larger."
-      },
-      "title-step": {
-        "displayName": "Step Title",
-        "purpose": "The four 'We ...' steps, uppercase, deep cucumber."
+        "purpose": "Service group H3s, service rows, occasion list items, step titles, Instagram card label."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Running copy."
+        "purpose": "Running text and inputs (16px so iOS never zooms)."
       },
       "lede": {
-        "displayName": "Lede",
-        "purpose": "Line under the hero headline, max 30ch."
+        "displayName": "Lede / Promise",
+        "purpose": "The line under the H1 or an H2, max 30 to 38ch."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Form legends and field labels."
+        "purpose": "Form labels and legends (legends at 23px); buttons use the same face at 18px."
       },
       "small": {
         "displayName": "Small",
-        "purpose": "Sub-lines, helper text, errors, footer."
+        "purpose": "Row subtitles, hints, optional tags, notes, errors (14 to 15px)."
+      },
+      "wordmark": {
+        "displayName": "Script Wordmark",
+        "purpose": "The business name only; header 20 to 28px, footer 26px, closing band clamp(40px, 11vw, 68px). Three tints per band."
       }
     },
     "shadows": [
       {
-        "name": "rose-drop",
-        "value": "0 8px 20px -8px rgba(158,42,80,.55)",
-        "purpose": "Filled rose buttons."
+        "name": "float",
+        "value": "0 10px 28px rgba(15,35,17,.18)",
+        "purpose": "White Instagram card on the green band."
       },
       {
-        "name": "card-drop",
-        "value": "0 14px 34px -18px rgba(158,42,80,.45)",
-        "purpose": "Instagram card at rest."
+        "name": "float-strong",
+        "value": "0 10px 28px rgba(20,40,22,.3)",
+        "purpose": "The fixed floating text circle."
       },
       {
-        "name": "card-drop-hover",
-        "value": "0 18px 40px -18px rgba(158,42,80,.6)",
-        "purpose": "Instagram card on hover."
-      },
-      {
-        "name": "plum-drop",
-        "value": "0 10px 26px -12px rgba(59,26,44,.6)",
-        "purpose": "White button on the rose close ground."
-      },
-      {
-        "name": "focus-halo",
-        "value": "0 0 0 3px rgba(90,138,66,.28)",
-        "purpose": "Chip and field focus."
+        "name": "illustration-lift",
+        "value": "drop-shadow(0 18px 30px rgba(10,30,12,.35))",
+        "purpose": "Desktop hero cucumber slices (filter, not box-shadow)."
       }
     ],
-    "focus": {
-      "default": "3px solid #5A8A42, offset 3px, radius 6px",
-      "onPlum": "#B6D99A",
-      "onRose": "#FFFFFF"
-    },
+    "textures": [
+      {
+        "name": "band-lines",
+        "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+        "purpose": "Faint diagonal lines on the hero and every Deep Cucumber band (services, footer)."
+      }
+    ],
     "motion": [
       {
-        "name": "control-transition",
-        "value": ".2s",
-        "purpose": "Buttons, arrow disc, Instagram card."
+        "name": "letter-in",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), 20ms stagger per letter, from translateX(50px) opacity 0",
+        "purpose": "Hero H1 bounce-in only; waits up to 700ms for Cal Sans; skipped under reduced motion."
       },
       {
-        "name": "input-transition",
-        "value": ".15s",
-        "purpose": "Chip and field border/halo."
+        "name": "rise",
+        "value": "opacity and transform .4s ease-out, from translateY(12px)",
+        "purpose": "Fade-up for blocks that start below the first screen."
+      },
+      {
+        "name": "float-in",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1), from translateY(120px)",
+        "purpose": "Floating text circle entering and leaving."
+      },
+      {
+        "name": "state",
+        "value": ".2s (buttons, arrow discs), .15s (fields, chips)",
+        "purpose": "Colour and border state changes."
       },
       {
         "name": "press",
-        "value": "translateY(1px)",
-        "purpose": "Button :active."
-      },
-      {
-        "name": "foam-pop",
-        "value": ".7s cubic-bezier(.16,1,.3,1)",
-        "purpose": "Chip splash bubbles; hidden under reduced motion."
-      },
-      {
-        "name": "soak-tunables",
-        "value": "DAMP .982; DROP_EVERY [650,1500]ms; TOUCH_QUIET 2600ms; SLICES 5/7; BUBBLES 46/120; CURRENT .03; WANDER 22; PUSH_R 74px; SHORE 18px; SHORE_AMP 7px",
-        "purpose": "Hero water simulation; static settled frame under reduced motion."
-      },
-      {
-        "name": "seam-tunables",
-        "value": "SPEED 1; AMP 1; three sines 6/3.2/1.4; phase 1.7 per seam",
-        "purpose": "Section water lines; static under reduced motion."
+        "value": "transform .12s, scale(.98)",
+        "purpose": "Button press."
       }
     ],
+    "focus": {
+      "light": "3px solid #3b6a34, 3px offset",
+      "dark": "3px solid #f6a6c0, 3px offset (hero, green bands, footer)"
+    },
     "breakpoints": [
       {
-        "name": "wordmark-inline",
-        "value": "430px"
+        "name": "xs-max",
+        "value": "380px",
+        "purpose": "Tighter chip padding at and below."
       },
       {
-        "name": "tablet",
-        "value": "760px"
+        "name": "sm",
+        "value": "430px",
+        "purpose": "Wordmark on one line."
       },
       {
-        "name": "soak-desk",
-        "value": "700px"
+        "name": "md",
+        "value": "760px",
+        "purpose": "Desktop gutter and band padding, two service columns, hero buttons side by side."
       },
       {
-        "name": "desktop",
-        "value": "1024px"
+        "name": "lg",
+        "value": "1024px",
+        "purpose": "Three service columns, four steps, split layouts, sticky form intro, hero cucumber slices."
       }
     ],
-    "signaturePalette": {
-      "soakDeep": "rgb(232,140,168)",
-      "soakMilk": "rgb(252,216,226)",
-      "soakCssFallback": "linear-gradient(180deg,transparent 0 18px,#F2B3C3 18px,#F7C8D4 60%,#F1B0C1)",
-      "sliceSkin": "#3F6B2D",
-      "sliceBand": "#B9D57F",
-      "sliceFlesh": "#E6F0C4",
-      "seamMintLine": "#8DB86F",
-      "wordmarkOnRose": [
-        "#FFE3EA",
-        "#F9B9CB",
-        "#DDF0C7"
-      ],
-      "wordmarkOnPlum": [
-        "#F6A9C0",
-        "#C98597",
-        "#B6D99A"
-      ],
-      "wordmarkAmp": "#C98597",
-      "selection": "#F6BFD0"
-    }
+    "houseStyleExceptions": [
+      {
+        "name": "Eyebrow pill",
+        "status": "not canonized",
+        "note": "Three eyebrow pills ship because Ellie's calm band house style requires them; Impeccable's craft floor bans eyebrows. Not a system rule for new surfaces; no component entry."
+      }
+    ]
   },
   "components": [
     {
-      "name": "Fill Button",
+      "name": "Primary Button",
       "kind": "button",
-      "refersTo": "button-fill",
-      "description": "The one committing action on a screen.",
-      "html": "<button class=\"ds-btn ds-btn-fill\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z\"/></svg>Text this to Marissa</button>",
-      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;font:700 1.0625rem/1 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-decoration:none;border:2px solid #C23A66;cursor:pointer;transition:background-color .2s,color .2s,box-shadow .2s,transform .2s}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #5A8A42;outline-offset:3px}.ds-btn-fill{background:#C23A66;color:#fff;box-shadow:0 8px 20px -8px rgba(158,42,80,.55)}.ds-btn-fill:hover{background:#9E2A50;border-color:#9E2A50}"
+      "refersTo": "button-primary",
+      "description": "Cupcake-pink pill with Ink text; the one main action per view (Plan her party, Text this to Marissa).",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Plan her party</a>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px} .ds-btn-primary{background:var(--pink);color:var(--ink);border-color:var(--pink)} .ds-btn-primary:hover{background:var(--pink-2);border-color:var(--pink-2)}"
     },
     {
-      "name": "Line Button",
+      "name": "Ghost Button (on green)",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined secondary pill on green bands, e.g. Text us in the hero.",
+      "html": "<div class=\"ds-band\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Text us</a></div>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px} .ds-band{background-color:var(--navy);background-image:var(--texture);padding:24px} .ds-btn svg{flex:none} .ds-btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(247,251,243,.7)} .ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)} .ds-btn-ghost:focus-visible{outline-color:var(--pink)}"
+    },
+    {
+      "name": "Line Button (on light)",
       "kind": "button",
       "refersTo": "button-line",
-      "description": "Companion action beside a fill.",
-      "html": "<button class=\"ds-btn ds-btn-line\">Text us</button>",
-      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;font:700 1.0625rem/1 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-decoration:none;border:2px solid #C23A66;cursor:pointer;transition:background-color .2s,color .2s,box-shadow .2s,transform .2s}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #5A8A42;outline-offset:3px}.ds-btn-line{background:transparent;color:#9E2A50}.ds-btn-line:hover{background:#fff}"
+      "description": "Outlined Ink pill for fallback actions on light grounds.",
+      "html": "<button class=\"ds-btn ds-btn-line\" type=\"button\">Copy message</button>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn:focus-visible{outline:3px solid var(--focus);outline-offset:3px} .ds-btn-line{background:transparent;color:var(--ink);border-color:rgba(29,58,32,.35)} .ds-btn-line:hover{outline:3px solid var(--focus);outline-offset:3px}"
     },
     {
-      "name": "Close Button",
-      "kind": "button",
-      "refersTo": "close-button",
-      "description": "White pill on the rose close ground.",
-      "html": "<div class=\"ds-close\"><a class=\"ds-big\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z\"/></svg>Text us to book</a></div>",
-      "css": ".ds-close{background:#C23A66;padding:32px;text-align:center}.ds-big{display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;background:#fff;color:#9E2A50;font:800 1.25rem/1 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-decoration:none;box-shadow:0 10px 26px -12px rgba(59,26,44,.6)}.ds-big svg{color:#C23A66}.ds-big:hover{background:#FFF0F4}.ds-big:focus-visible{outline:3px solid #fff;outline-offset:3px}"
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Rose-field input with a Cal Sans label above and a soft 'optional' tag; green border on hover and focus.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-town\">Town <span class=\"ds-opt\">optional</span></label><input id=\"ds-town\" type=\"text\" placeholder=\"e.g. Hoboken\"></div>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-field{display:grid;gap:8px;max-width:360px} .ds-field label{font:400 17px/1.2 var(--display);color:var(--ink)} .ds-opt{font:400 14px/1 var(--text);color:var(--soft);margin-left:6px} .ds-field input{width:100%;box-sizing:border-box;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:10px;padding:13px 14px;min-height:52px;caret-color:var(--navy);transition:border-color .15s;appearance:none} .ds-field input::placeholder{color:#5f6a5b} .ds-field input:hover,.ds-field input:focus{outline:none;border-color:var(--focus)}"
+    },
+    {
+      "name": "Choice Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill chips over visually hidden checkboxes or radios; selected flips to Ink.",
+      "html": "<div class=\"ds-chips\"><input type=\"checkbox\" id=\"ds-c1\" checked><label for=\"ds-c1\">Facials</label><input type=\"checkbox\" id=\"ds-c2\"><label for=\"ds-c2\">Manicures</label><input type=\"checkbox\" id=\"ds-c3\"><label for=\"ds-c3\">Homemade cupcakes</label></div>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-chips{position:relative;display:flex;flex-wrap:wrap;gap:10px} .ds-chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0} .ds-chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:999px;background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;transition:border-color .15s,background-color .15s,color .15s} .ds-chips label:hover{border-color:var(--focus)} .ds-chips input:checked+label{background:var(--ink);color:#fff} .ds-chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Paper header: script wordmark left, tap-to-call number right, no menu.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><span class=\"a\">Cupcakes</span> <span class=\"amp\">&amp;</span> <span class=\"b\">Cucumbers</span></a><a class=\"ds-tel\" href=\"#\">347-620-8903</a></header>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:0 20px;background:var(--paper)} .ds-brand{font:400 22px/1 'Pacifico',cursive;text-decoration:none;white-space:nowrap} .ds-brand .a{color:var(--pink-ink)} .ds-brand .amp{color:#b0607c} .ds-brand .b{color:var(--navy)} .ds-tel{display:inline-flex;align-items:center;min-height:44px;font:400 17px/1 var(--display);color:var(--ink);text-decoration:none} .ds-tel:hover{color:var(--pink-ink)} .ds-tel:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}"
     },
     {
       "name": "Service Row",
       "kind": "custom",
       "refersTo": "service-row",
-      "description": "Tappable service list; only the arrow disc reacts.",
-      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\">Manicures<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\"><span>Mini bars<small>On their own, or added to any party</small></span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li></ul>",
-      "css": ".ds-rows{list-style:none;margin:0;padding:0;background:#FBE4E8}.ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px;padding:10px 0;border-bottom:1px solid rgba(75,31,53,.14);text-decoration:none;color:#4B1F35;font:800 1.5rem/1.15 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif}.ds-row small{display:block;font:500 .9375rem/1.3 system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;color:#764460;margin-top:4px}.ds-row:hover,.ds-row:focus-visible{outline:none}.ds-arrow{flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:rgba(75,31,53,.07);color:#4B1F35;transition:background-color .2s,color .2s}.ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:#C23A66;color:#fff}.ds-row:focus-visible .ds-arrow{outline:3px solid #5A8A42;outline-offset:3px}"
+      "description": "Full-width link row on a deep green band with an arrow disc that fills pink on hover and focus.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\">Facials<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\"><span>Mini bars<small>On their own, or added to any party</small></span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li></ul>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-rows{list-style:none;margin:0;padding:8px 20px;background-color:var(--deep);background-image:var(--texture)} .ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.16);text-decoration:none;color:var(--on-dark);font:400 21px/1.2 var(--display)} .ds-row small{display:block;margin-top:4px;font:400 15px/1.35 var(--text);color:var(--on-dark-soft)} .ds-row:focus-visible{outline:none} .ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12);color:var(--on-dark);transition:background-color .2s,color .2s} .ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:var(--pink);color:var(--ink)} .ds-row:focus-visible .ds-arrow{outline:3px solid var(--pink);outline-offset:3px}"
     },
     {
-      "name": "Chip",
-      "kind": "chip",
-      "refersTo": "chip",
-      "description": "Radio/checkbox pill; rose when picked, cucumber on hover and focus.",
-      "html": "<div class=\"ds-chips\"><label class=\"ds-chip\"><input type=\"checkbox\" checked><span>Facials</span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span>Manicures</span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span>Glampagne</span></label></div>",
-      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:8px}.ds-chip{position:relative}.ds-chip input{position:absolute;opacity:0;width:1px;height:1px;margin:0}.ds-chip span{display:flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;background:#fff;border:2px solid #C07590;color:#4B1F35;font:600 .9375rem system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;cursor:pointer;transition:border-color .15s,background-color .15s,color .15s}.ds-chip:hover span,.ds-chip input:focus-visible+span{border-color:#5A8A42}.ds-chip input:focus-visible+span{box-shadow:0 0 0 3px rgba(90,138,66,.28)}.ds-chip input:checked+span{background:#C23A66;border-color:#C23A66;color:#fff}.ds-chip:hover input:checked+span{border-color:#5A8A42}"
+      "name": "Step List",
+      "kind": "custom",
+      "refersTo": "step-number",
+      "description": "Numbered steps with a 48px pink disc and a Cal Sans title.",
+      "html": "<ol class=\"ds-steps\"><li><div><b>We travel.</b><span>Right to your door in New York and New Jersey.</span></div></li><li><div><b>We set up.</b><span>Your living room becomes her spa.</span></div></li></ol>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-steps{list-style:none;margin:0;padding:0;display:grid;gap:24px;counter-reset:s;font:16px/1.7 var(--text);color:var(--body)} .ds-steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;counter-increment:s} .ds-steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--pink);color:var(--ink);font:400 20px/1 var(--display)} .ds-steps b{display:block;font:400 21px/1.2 var(--display);color:var(--ink);margin-top:4px} .ds-steps span{display:block;margin-top:4px}"
     },
     {
-      "name": "Field",
-      "kind": "input",
-      "refersTo": "field",
-      "description": "Labelled text field with cucumber hover and focus.",
-      "html": "<div class=\"ds-field\"><label class=\"ds-label\" for=\"ds-town\">Town</label><input id=\"ds-town\" class=\"ds-input\" type=\"text\" placeholder=\"e.g. Hoboken, NJ\"></div>",
-      "css": ".ds-label{display:block;font:800 1.0625rem/1.2 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;margin-bottom:10px;color:#4B1F35}.ds-input{width:100%;min-height:54px;padding:12px 16px;border-radius:16px;border:2px solid #C07590;background:#fff;color:#4B1F35;font:500 1.0625rem/1.3 system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;transition:border-color .15s,box-shadow .15s;appearance:none}.ds-input:hover{border-color:#5A8A42}.ds-input:focus{outline:none;border-color:#5A8A42;box-shadow:0 0 0 3px rgba(90,138,66,.28)}"
-    },
-    {
-      "name": "Instagram Card",
+      "name": "Form Card",
       "kind": "card",
-      "refersTo": "instagram-card",
-      "description": "The single outbound card to Instagram.",
-      "html": "<a class=\"ds-gram\" href=\"#\"><span class=\"ds-ig\"><svg viewBox=\"0 0 24 24\" width=\"28\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><circle cx=\"17.5\" cy=\"6.5\" r=\".6\" fill=\"currentColor\"/></svg></span><span><strong>Click to see more of our parties</strong><span>@cupcakes_and_cucumbers on Instagram</span></span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a>",
-      "css": ".ds-gram{display:flex;align-items:center;gap:16px;padding:20px 22px;border-radius:24px;background:#fff;text-decoration:none;color:#4B1F35;border:2px solid #F3C6D3;box-shadow:0 14px 34px -18px rgba(158,42,80,.45);transition:border-color .2s,box-shadow .2s;font-family:system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif}.ds-gram:hover{border-color:#C23A66;box-shadow:0 18px 40px -18px rgba(158,42,80,.6)}.ds-gram:focus-visible{outline:3px solid #5A8A42;outline-offset:3px}.ds-ig{flex:none;width:52px;height:52px;border-radius:16px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#E8789A,#C23A66)}.ds-gram strong{display:block;font:800 1.25rem/1.15 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif}.ds-gram strong+span{display:block;color:#764460;font-size:.9375rem;margin-top:3px}.ds-arrow{margin-left:auto;flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:rgba(75,31,53,.07);color:#4B1F35;transition:background-color .2s,color .2s}.ds-gram:hover .ds-arrow{background:#C23A66;color:#fff}"
+      "refersTo": "form-card",
+      "description": "White 24px-radius card on blush paper holding the plan form; flat.",
+      "html": "<div class=\"ds-ground\"><div class=\"ds-card\"><b>Where's the party?</b><p>Tell us the day and the town.</p></div></div>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-ground{background:var(--paper);padding:24px} .ds-card{background:var(--card);border-radius:24px;padding:clamp(20px,5vw,32px);display:grid;gap:12px;max-width:640px} .ds-card b{font:400 23px/1.2 var(--display);color:var(--ink)} .ds-card p{margin:0;font:16px/1.7 var(--text);color:var(--soft)}"
     },
     {
-      "name": "Wordmark",
+      "name": "Floating Text Circle",
       "kind": "custom",
-      "refersTo": "typography.wordmark",
-      "description": "The only use of the script face. Falls back to cursive outside the site (the Pacifico subset is embedded in index.html).",
-      "html": "<a class=\"ds-wm\" href=\"#\"><span class=\"ds-a\">Cupcakes</span> <span class=\"ds-amp\">&amp;</span> <span class=\"ds-b\">Cucumbers</span></a>",
-      "css": ".ds-wm{font-family:\"CC Script\",Pacifico,cursive;font-size:30px;line-height:1;white-space:nowrap;text-decoration:none}.ds-a{color:#D85A82}.ds-amp{color:#C98597}.ds-b{color:#5A8A42}.ds-wm:focus-visible{outline:3px solid #5A8A42;outline-offset:3px;border-radius:6px}"
-    },
-    {
-      "name": "Seam",
-      "kind": "custom",
-      "refersTo": "seam",
-      "description": "Wavy water boundary into the next section (static snapshot; animated by script on the site).",
-      "html": "<div class=\"ds-seam-wrap\"><svg class=\"ds-seam\" viewBox=\"0 0 1440 56\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path class=\"ds-ln\" d=\"M0 31 C240 22 480 40 720 29 S1200 20 1440 30\"/><path fill=\"#EAF3E1\" d=\"M0 38 C240 29 480 47 720 36 S1200 27 1440 37 L1440 56 L0 56Z\"/></svg><div class=\"ds-next\">You host nothing</div></div>",
-      "css": ".ds-seam-wrap{background:#FBE4E8;padding-top:40px}.ds-seam{display:block;width:100%;height:56px}.ds-ln{fill:none;stroke:#8DB86F;stroke-width:3;vector-effect:non-scaling-stroke;opacity:.3}.ds-next{background:#EAF3E1;padding:8px 20px 28px;font:800 2rem/1.02 ui-rounded,\"SF Pro Rounded\",\"Hiragino Maru Gothic ProN\",system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;text-transform:uppercase;color:#4B1F35}"
+      "refersTo": "floating-text-circle",
+      "description": "60px pink circle fixed bottom-right that opens a pre-filled text; appears after the hero, hides while the form is on screen.",
+      "html": "<a class=\"ds-float\" href=\"#\" aria-label=\"Text Cupcakes &amp; Cucumbers\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ":host{--paper:#fbf5f6;--card:#fff;--field:#f3e4ea;--ink:#1d3a20;--body:#2e3a2c;--soft:#4f5a4b;--navy:#3b6a34;--deep:#1f3a22;--on-dark:#f7fbf3;--on-dark-soft:#dbe8d2;--pink:#f6a6c0;--pink-2:#f9bfd2;--pink-ink:#a52c59;--focus:#3b6a34;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)} .ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--pink);color:var(--ink);box-shadow:0 10px 28px rgba(20,40,22,.3);transition:transform .35s cubic-bezier(.2,.8,.2,1)} .ds-float:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
     }
   ],
   "narrative": {
-    "northStar": "The Pink Pedicure Soak",
-    "overview": "**Creative North Star: \"The Pink Pedicure Soak\"**\n\nThe whole page is a spa-party treat you can play with before the party starts. The first screen ends in a basin of milky pink water. Cucumber slices and foam bubbles float in it, it ripples on its own, and it moves under a finger or a cursor. Everything below comes from that soak. Each section boundary is a moving water line, the grounds are soft spa colours (cream, blush, cucumber mint), and the cucumber slice comes back as the step marker, the promo mark and the occasion bullet. The world comes from the business's own name and flyer: cucumber slices, pink spa water, foam, and the pink-and-cucumber-green script wordmark.\n\nThe voice is loud and friendly. Headlines are heavy, rounded and uppercase. Body copy is plain system sans so it stays quick to read. The page has one script face, and it only spells the business name. Density is low and built for a phone: one column, big type, 44 to 60px touch targets, and every action is a pill. Wider screens add columns but never change the material.\n\nThe build has no photography (the only images available show children's faces). Colour, the soak and the slice drawing carry the imagery instead.",
+    "northStar": "The Cucumber Slice on a Calm Afternoon",
+    "overview": "A pretend-luxury kids' spa, dressed grown-up enough that a parent trusts it with her daughter's party. The page is a stack of full-bleed colour bands (blush paper, cucumber-skin green, deep cucumber with faint diagonal lines) and every band speaks in one heading face, Cal Sans, with system text underneath. Warmth comes from a single cupcake pink, used as a fill for the things you press and as the colour of the last phrase in a heading. The flyer's script wordmark stands in for a logo and is the only decorative type.\n\nDensity is phone-first and generous: 64px band padding on phones (96px on desktop), single columns that open to two or three on desktop, every tap target 44px or more. There are no photographs (every real party photo shows children's faces); the hero is a textured green band, and on desktop only three illustrated cucumber slices float to its right, well clear of the copy. Motion is three quiet devices: the hero H1 letters bounce in once, below-the-fold blocks rise 12px as they arrive, and a pink text circle slides up after the hero.\n\nThis is the calm band house style (after lpmr.co.uk) applied to the flyer's own colours. The previous \"pink pedicure soak\" world was replaced on 2026-10-19 and nothing from it carries forward.",
     "keyCharacteristics": [
-      "An interactive water simulation is the hero image, and its water lines run down the page as section seams.",
-      "Heavy rounded uppercase headlines over a plain system-sans body.",
-      "A script wordmark (Pacifico subset) that only ever spells \"Cupcakes & Cucumbers\".",
-      "Rose marks commitment (fills, selected states, the close section). Cucumber green marks the page responding to you (focus and hover on inputs).",
-      "The darkest colours are berry and plum. The page never uses black.",
-      "Pills everywhere. Soft drop shadows tinted rose, and only on a few tappable items."
+      "Full-bleed bands alternate paper, cucumber green and deep cucumber; content sits in a 1160px column.",
+      "One warm accent: cupcake pink as fill, a darker pink-ink when pink must be text on light.",
+      "Cal Sans at weight 400 for every heading, button, label and list row; system stack for running text.",
+      "Pills and circles for everything you can press; 24px-radius white card for the form.",
+      "Flat surfaces; depth only on the two things that float (Instagram card, text circle).",
+      "Motion is once-only and fully disabled under reduced motion."
     ],
     "rules": [
       {
-        "name": "The Rose Acts, Cucumber Answers Rule",
-        "body": "Rose (and deep rose) belongs to things you commit to: fills, selected chips, the close ground. Cucumber green belongs to the page answering you: focus outlines and hover or focus borders on inputs. Don't swap them. A focus ring is never rose, and a primary fill is never green.",
+        "name": "The Fill-Only Pink Rule",
+        "body": "Cupcake pink is a fill, or display-size text on a green band (32px and up). On paper, pink text is always Pink Ink. Never set body-size text in Cupcake Pink, and never put white text on pink: text on pink is Ink.",
         "section": "colors"
       },
       {
-        "name": "The Plum-Not-Black Rule",
-        "body": "The darkest colours are berry (text) and plum (footer). No surface, text or shadow uses #000. Shadows are tinted rose-deep or plum.",
+        "name": "The Two-Greens Rule",
+        "body": "Bands are paper, Cucumber Skin or Deep Cucumber, nothing else. Deep Cucumber always carries the line texture; Cucumber Skin carries it only in the hero.",
         "section": "colors"
       },
       {
-        "name": "The Rotating Grounds Rule",
-        "body": "Section grounds rotate through cream, blush, mint, cream, blush, then rose for the close and plum for the footer. Two sections in a row never share a ground, so each seam always shows a change of water.",
+        "name": "The Green Focus Rule",
+        "body": "Focus and hover outlines on light grounds are Cucumber Skin (3px, 3px offset), so they never blend into a pink fill. On green bands the outline switches to Cupcake Pink.",
         "section": "colors"
       },
       {
-        "name": "The One Script Rule",
-        "body": "Pacifico is subset to the glyphs of the business name and sets nothing else. It can't render other text, and it shouldn't. Headlines, buttons and labels use the rounded display stack.",
+        "name": "The One Weight Rule",
+        "body": "Cal Sans is always weight 400; hierarchy comes from size alone. Bold (600) exists only in system text as a lead-in phrase.",
         "section": "typography"
       },
       {
-        "name": "The Loud Rounded Rule",
-        "body": "Every heading voice is rounded and weight 800. Headings that name a section or step are uppercase. Never set a heading in a light or regular weight.",
+        "name": "The Accent-Phrase Rule",
+        "body": "A heading may colour its last phrase as an accent (\"NY & NJ.\", \"bring.\"). One phrase, at the end, never the whole heading.",
         "section": "typography"
       },
       {
-        "name": "The Rose-Tinted Drop Rule",
-        "body": "Shadows are soft, negative-spread and tinted rose-deep (plum on a rose ground). They appear only under a primary tappable item. No hard offsets, no neutral grey shadows, and no shadows on chips, rows, fields or section blocks.",
+        "name": "The Name-Only Script Rule",
+        "body": "The script face sets \"Cupcakes & Cucumbers\" and nothing else. Its three parts take three tints: pink for \"Cupcakes\", a dusky rose for \"&\", green for \"Cucumbers\", re-tinted lighter on green bands.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only-What-Floats Rule",
+        "body": "A shadow means the element sits above the band (a card on green, a fixed control). Buttons, fields, chips and rows are flat.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** start every new section with a seam whose fill is the new section's ground, and change the ground at every seam (The Rotating Grounds Rule).",
-      "**Do** use rose for the one action that commits, and line buttons for its companion. Keep every button a 56px pill.",
-      "**Do** give every control its cucumber response: a cucumber border on hover, and a 3px cucumber outline or halo on focus.",
-      "**Do** reuse the cucumber slice symbol as the page's marker (steps, promo, bullets) instead of generic icons or dots.",
-      "**Do** keep touch targets at 44px or more (60px for service rows), and keep phone layouts to one column.",
-      "**Do** pause any new canvas or animated motif offscreen and give it a static reduced-motion state, as the soak and seams do.",
-      "**Do** keep the soak's look tunable through its named constants, not by editing the simulation."
+      "**Do** build each section as a full-bleed band in paper, Cucumber Skin or Deep Cucumber, with 64px (phone) and 96px (desktop) padding.",
+      "**Do** put text on pink in Ink, and use Pink Ink whenever pink must be text on a light ground.",
+      "**Do** set every heading, button, label and list row in Cal Sans 400, and running text in the system stack at 16px / 1.7.",
+      "**Do** make every pressable thing a pill or circle at 44px or more (buttons 56px, chips 48px, fields 52px).",
+      "**Do** give fields the Rose Field fill and a green 2px border on hover and focus.",
+      "**Do** gate hover styles behind `@media (hover:hover)` so taps don't stick.",
+      "**Do** turn off every transition and animation under `prefers-reduced-motion`, leaving all content visible."
     ],
     "donts": [
-      "**Don't** use Pacifico, or any script, for anything except the business name (The One Script Rule).",
-      "**Don't** use black or neutral grey for text, surfaces or shadows. Use berry, berry-two or plum.",
-      "**Don't** put background, outline or shadow hover states on service rows. Only the arrow disc reacts.",
-      "**Don't** use rose for focus indication or cucumber for primary fills (The Rose Acts, Cucumber Answers Rule).",
-      "**Don't** separate sections with straight rules, boxed panels or a flat colour change. The boundary is always the moving seam.",
-      "**Don't** add hard-offset, grey or ambient card shadows. Shadows are soft, tinted rose and only under primary tappable items.",
-      "**Don't** set body copy in wordmark pink, cucumber or the muted ampersand pink. They are display-only at their contrast.",
-      "**Don't** lighten the field and chip stroke (#C07590) below 3:1 against white. Paler pinks read prettier but the controls disappear."
+      "**Don't** add a fourth band colour or a second warm accent.",
+      "**Don't** set body-size text in Cupcake Pink, or white text on a pink fill.",
+      "**Don't** use any Cal Sans weight other than 400, or the script face for anything but the business name.",
+      "**Don't** put shadows on buttons, fields, chips or rows; only elements that float above a band get one.",
+      "**Don't** animate any heading except the hero H1, or replace the floating circle with a bottom bar.",
+      "**Don't** use party photographs without the owner's consent; every one on hand shows children's faces."
     ]
   }
 }
